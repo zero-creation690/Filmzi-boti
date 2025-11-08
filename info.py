@@ -22,7 +22,7 @@ def is_enabled(value, default):
 SESSION = 'FilmziMovieBot'   # Session name for the bot
 API_ID = 20288994  # API ID from my.telegram.org
 API_HASH = 'd702614912f1ad370a0d18786002adbf'  # API Hash from my.telegram.org
-BOT_TOKEN = '8416909627:AAFbJM9nQtqqttTnuN1KOkRScR6Fa_Z6cLQ'    # Bot token from @BotFather
+BOT_TOKEN = '8368262509:AAGQgIRSHk8itwr1wUR0MzhnGYDvXkhAXQU'    # Bot token from @BotFather
 
 
 # ============================
@@ -232,7 +232,7 @@ else:
     ON_HEROKU = False
 
 
-BIND_ADRESS = 'weary-thelma-zerocreationhh-12430494.koyeb.app'
+BIND_ADRESS = 'filmzi-boti-3cikv.sevalla.app'
 FQDN = BIND_ADRESS if not ON_HEROKU or os.getenv('FQDN') else APP_NAME+'.herokuapp.com'
 
 
